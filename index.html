@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <h1 class="logo"><img class="img-logo" src="imagen/Logo.svg" alt="imagen Logo"></h1>        
+            <h2 class="titulo-principal">Alura Latam - Encriptador</h1>
+        </div> 
+        <hr class="linea">       
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area-principal" cols="30" rows="10" placeholder="Ingresa el texto que desees Encriptar o Desencriptar"></textarea>
+            <div class="block-botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="text-area-mensaje" cols="20" rows="10" ></textarea>
+            <div class="block-copiar">
+                <button id="btnCopiar" class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>                        
+            <div class="block-anuncio">
+                <p id="anuncio" class="anuncio">No hay mensaje que mostrar</p>
+            </div>                                      
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Copyright - JLamb_Developer</p>  
+    </footer>
+
+    <script src="script.js"></script>          
+</body>
+</html>
