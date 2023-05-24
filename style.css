@@ -120,7 +120,7 @@ main{
 
 .text-area-mensaje{
     background: #FFFFFF;
-    background-image: url("imagen/Muñeco.svg");
+    background-image: url("img/Muneco.svg");
     background-repeat: no-repeat;
     background-position-y: 50px;   
     border: 0.5px solid #0A3871;
